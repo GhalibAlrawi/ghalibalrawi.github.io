@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 title: Moonwalk
 author: Abhinav Saxena
 url: https://www.abhinavsaxena.com/moonwalk # root address of the site
@@ -48,6 +47,3 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
-=======
-theme: jekyll-theme-midnight
->>>>>>> 7df662ec3c4ee52a27515a1156cec3e6751c8636
