@@ -9,59 +9,13 @@ navbar_entries:
     url: https://www.abhinav.co
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
-
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
-
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
-
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
-
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
-
-old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
-
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
-
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  - title: MarketWatch
+    url: marketwatch
+    desc: A Windows app for notifying you of new deals on local markets
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
-
-  - title: twitter
-    url: https://twitter.com/abhinav
-
-  - title: github
-    url: https://github.com/abhinavs
+  - title: GitHub
+    url: https://github.com/ghalibalrawi
 
   - title: feed
     url: feed.xml

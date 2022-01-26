@@ -3,6 +3,6 @@ layout: post
 title: About
 ---
 
-This is an example page!
+A personal portfolio and blogging website to showcase my projects and anything related to development!
 
-Actually, it has the same layout of a post...
+Powered by Github Pages and Jekyll
