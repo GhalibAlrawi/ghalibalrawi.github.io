@@ -1,23 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 html { height: 100%; }
 
 body {
   font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
-  font-size: 1.0rem;
+  font-size: 1rem;
   line-height: 2;
   margin: 0;
   min-height: 100%;
-  text-align: justify;
-  text-justify: inter-word;
+  //text-align: justify;
+  //text-justify: inter-word;
 }
 pre, code {
-  font-family: "Anonymous Pro", "Courier New", monospace;
-  font-size: 0.9rem;
+  font-family: "Fira Code", "Courier New", monospace;
+  font-size: 0.835rem;
 }
 
-h2, h3, h4, h5 { margin-top: 1.5em; }
+h2, h3, h4, h5 { 
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
 
 hr { margin: 1em 0; }
 
@@ -29,12 +32,15 @@ hr.page-break {
   &:after { content: attr(data-content) '-----' }
 }
 
-p { margin: 1em 0; }
+p {
+  margin: 1em 0;
+  margin-top: 0em;
+}
 
-li { margin: 0.4em 0; }
+li { margin: 0.2em 0; }
 
 .w {
-  max-width: 720px;
+  max-width: 920px;
   margin: 0 auto;
   padding: 1em 1em;
 }
@@ -50,6 +56,9 @@ div.highlighter-rouge pre code, pre code.highlighter-rouge {
   display: block;
   overflow-x: auto;
   padding: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-top:-1em;
 }
 
 blockquote {
@@ -106,7 +115,7 @@ p, strong, b, em, small, li, hr, table, figcaption {
     color: var(--text);
 }
 .highlight, pre code, blockquote {
-  border-radius: 0.5em;
+  border-radius: .5em;
 }
 blockquote {
   background-color: var(--bg-secondary);
@@ -175,12 +184,12 @@ mark {
 }
 p code, li code {
   background-color: var(--bg-secondary);
-  padding: 0.2rem;
+  padding: 0.2rem; //was .2
   color: var(--code-text);
   font-weight: bold;
 }
 .post-title {
-  margin-bottom:-1.5rem;
+  margin-bottom:-1rem;
 }
 .project-title {
   margin-bottom: 0.8rem;

@@ -5,51 +5,17 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
-
 project_entries:
-  - title: MarketWatch
+  - title: Marketwatch
     url: marketwatch
-    desc: A Windows app for notifying you of new deals on local markets
+    desc: A Windows app for notifying you of new deals on local markets.
+  - title: My First Python Script
+    url: first-python-script
+    desc: My first python script I coded 4 years ago!
+  - title: Javascript Snake
+    url: snake-game
+    desc: A version of snake I coded in Javascript in Robotics class during Grade Eight.
 
 footer_entries:
   - title: GitHub
     url: https://github.com/ghalibalrawi
-
-  - title: feed
-    url: feed.xml
-
-misc_entries:
-  - title: this is an example vertical list
-    url: false
-
-  - title: you can show or hide using a boolean flag in _config.yml
-    url: false
-
-  - title: and you can add data in _data/home.yml
-    url: false
-
-  - title: Blog posts
-    post_list: true
-    url: false
-
-  - title: moonwalk on the Internet
-    url: false
-    entries:
-      - title: on Github
-        url: https://github.com/abhinavs/moonwalk
-
-      - title: originally built for abhinav's homepage
-        url: https://www.abhinav.co
-
-      - title: this list is scalable and can be nested
-        url: false
-        entries:
-          - title: this is nested inside a nested list
-            url: false
-
-          - title: it is easy to use, see _data/home.yml to see how to configure it.
-            url: false
-
-
