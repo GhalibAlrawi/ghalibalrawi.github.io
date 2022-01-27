@@ -3,7 +3,7 @@ layout: post
 title: My First Python Script
 ---
 
-My first Python script calculated the circumference of a circle using Pi. It takes the diameter of the circle through user input via console, multiplies it by Pi to get circumference, and printed it out.
+My first Python script calculated the circumference of a circle using Pi. It takes the diameter of the circle through user input via console, multiplies it by Pi to get circumference, and prints it out.
 ```python
 from math import pi
 

@@ -27,10 +27,12 @@ The code for notifying the end user of new ads that have appeared on Kijiji foll
 
 This series of instructions is encapsulated in an asynchronous method that repeats infinitely until a CancellationToken is triggered. Here is the method:
 ```cs
-public async Task Scout(SearchParameters parameters, TimeSpan scoutInterval, Action<Listing> notify) {
+public async Task Scout(SearchParameters parameters, TimeSpan scoutInterval,
+                        Action<Listing> notify, CancellationToken token) {
     var lastQueryTime = DateTime.Now;
     while (true) {
-        await Task.Delay(scoutInterval);
+        await Task.Delay(scoutInterval, token);
+        if (cancellationToken.IsCancellationRequested) return;
 
         var latestSearch = SearchAds(parameters);
         //For each ad posted after last query, invoke a delegate
