@@ -5,19 +5,21 @@ html { height: 100%; }
 
 body {
   font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
-  font-size: 1.0rem;
+  font-size: 1rem;
   line-height: 2;
   margin: 0;
   min-height: 100%;
+  //text-align: justify;
+  //text-justify: inter-word;
 }
 pre, code {
   font-family: "Fira Code", "Courier New", monospace;
-  font-size: 0.8rem;
+  font-size: 0.835rem;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5 { 
   margin-top: 1.5em;
-  margin-bottom: -.5em;
+  margin-bottom: 0em;
 }
 
 hr { margin: 1em 0; }
@@ -31,16 +33,16 @@ hr.page-break {
 }
 
 p {
-   margin: 1em 0; 
-   margin-top: .5em;
-  }
+  margin: 1em 0;
+  margin-top: 0em;
+}
 
-li { margin: 0.4em 0; }
+li { margin: 0.2em 0; }
 
 .w {
-  max-width: 820px;
+  max-width: 920px;
   margin: 0 auto;
-  padding: 4em 2em;
+  padding: 1em 1em;
 }
 
 table, th, td {
@@ -54,6 +56,9 @@ div.highlighter-rouge pre code, pre code.highlighter-rouge {
   display: block;
   overflow-x: auto;
   padding: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-top:-1em;
 }
 
 blockquote {
@@ -85,9 +90,9 @@ html {
       --headings: #74c0fc;
       --links: #91A7FF;
       --highlight: #41C7C7;
-      --bg: #1f242A;
+      --bg: #13161a;
       --bg-secondary: #323945;
-      --text: #adb5bd;
+      --text: #c6cfda;
       --code-text: #91A7FF;
       --share-text: #C4C4C4;
   };
@@ -110,7 +115,7 @@ p, strong, b, em, small, li, hr, table, figcaption {
     color: var(--text);
 }
 .highlight, pre code, blockquote {
-  border-radius: 0.5em;
+  border-radius: .5em;
 }
 blockquote {
   background-color: var(--bg-secondary);
@@ -150,7 +155,7 @@ html.transition *:after {
   outline: none;
 }
 .dashed {
-  border-top: 1px var(--text) dashed;
+  border-top: 1px var(--text) solid;
   margin: 0.5em 0;
 }
 mark {
@@ -179,12 +184,12 @@ mark {
 }
 p code, li code {
   background-color: var(--bg-secondary);
-  padding: 0.2rem;
+  padding: 0.2rem; //was .2
   color: var(--code-text);
   font-weight: bold;
 }
 .post-title {
-  margin-bottom:-1.5rem;
+  margin-bottom:-1rem;
 }
 .project-title {
   margin-bottom: 0.8rem;

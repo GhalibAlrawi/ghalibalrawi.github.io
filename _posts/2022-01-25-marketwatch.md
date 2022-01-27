@@ -128,7 +128,8 @@ public async Task<HttpResponseContainer<LoginResponseXml>> Login(string email, s
     if (!httpResponse.IsSuccessStatusCode)
         return new HttpResponseContainer<LoginResponseXml>(httpResponse, null);
 
-    LoginResponseXml loginResponse = LoginResponseXml.XMLDeserialize(await httpResponse.Content.ReadAsStringAsync());
+    LoginResponseXml loginResponse = 
+        LoginResponseXml.XMLDeserialize(await httpResponse.Content.ReadAsStringAsync());
     var httpResponseContainer = new HttpResponseContainer<LoginResponseXml>(httpResponse, loginResponse);
 
     return httpResponseContainer;
